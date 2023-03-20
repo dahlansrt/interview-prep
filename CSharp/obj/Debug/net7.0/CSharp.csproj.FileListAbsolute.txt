@@ -1,0 +1,15 @@
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/bin/Debug/net7.0/CSharp
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/bin/Debug/net7.0/CSharp.deps.json
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/bin/Debug/net7.0/CSharp.runtimeconfig.json
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/bin/Debug/net7.0/CSharp.dll
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/bin/Debug/net7.0/CSharp.pdb
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.csproj.AssemblyReference.cache
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.AssemblyInfoInputs.cache
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.AssemblyInfo.cs
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.csproj.CoreCompileInputs.cache
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.dll
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/refint/CSharp.dll
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.pdb
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/CSharp.genruntimeconfig.cache
+/Users/rbz-lt-0-15-001/Projects/interview/CSharp/obj/Debug/net7.0/ref/CSharp.dll
