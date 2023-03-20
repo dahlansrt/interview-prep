@@ -12,6 +12,14 @@
                 { "abc", "aabbcc" }
                 };
 
+            Console.WriteLine($"{nameof(ransomNote)}: ");
+            for (int i = 0; i < array2D.GetLength(0); i++)
+            {
+                Console.Write($"{array2D[i, 0]} : {array2D[i, 1]} => ");
+                Console.WriteLine(ransomNote(array2D[i, 0], array2D[i, 1]));
+            }
+            Console.WriteLine();
+            Console.WriteLine($"{nameof(ransomNoteWithDict)}: ");
             for (int i = 0; i < array2D.GetLength(0); i++)
             {
                 Console.Write($"{array2D[i, 0]} : {array2D[i, 1]} => ");
@@ -127,25 +135,13 @@
 
         public static bool ransomNote(string string1, string string2)
         {
-            bool result = false;
             foreach (var item in string1)
             {
-                if (string2.Length == 0)
-                {
-                    result = true;
-                    break;
-                }
-                else if (string2.Contains(item))
-                {
-                    string2 = string2.Remove(string2.IndexOf(item));
-                }
-                else
-                {
-                    break;
-                }
+                if (!string2.Contains(item) || string1.Count(x => x == item) > string2.Count(x => x == item))
+                    return false;
             }
 
-            return result;
+            return true;
         }
     }
 }
