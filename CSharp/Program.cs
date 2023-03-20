@@ -25,7 +25,6 @@
                 Console.Write($"{array2D[i, 0]} : {array2D[i, 1]} => ");
                 Console.WriteLine(ransomNoteWithDict(array2D[i, 0], array2D[i, 1]));
             }
-            return;
 
             Console.WriteLine("What is your name?");
             var name = Console.ReadLine();
