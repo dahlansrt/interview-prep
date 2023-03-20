@@ -115,7 +115,7 @@
 
             foreach (KeyValuePair<char, int> kvp in inputDict)
             {
-                if (!string2.Any(x => x == kvp.Key) && string2.Count(x => x == kvp.Key) < kvp.Value)
+                if (!string2.Any(x => x == kvp.Key) || string2.Count(x => x == kvp.Key) < kvp.Value)
                 {
                     return false;
                 }
